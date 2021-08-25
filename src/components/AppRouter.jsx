@@ -1,9 +1,5 @@
 import React, {useContext} from 'react';
 import {Redirect, Route, Switch} from "react-router-dom";
-import About from "../pages/About";
-import Posts from "../pages/Posts";
-import Error from "../pages/Error";
-import PostPage from "../pages/PostPage";
 import {privateRoutes, publicRoutes} from "../router/routes";
 import {AuthContext} from "../context";
 import Loader from "./UI/loader/Loader";
